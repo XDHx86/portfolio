@@ -19,9 +19,9 @@ const CanvasComponent = lazy(() => import('../Canvas/CanvasComponent'));
 const BG_SETTLE_DELAY = 0.7;
 
 const bottomTexts = [
-  `Avi has also been an instructor at a leading YC EdTech platform, having taught MERN Stack to over <span class="black"> 100,000+ </span> students.`,
-  `Avi is a graduate from <span class="black"> IIIT Delhi </span> and has done his <span class="black"> Btech (CS) </span> in 2024.`,
-  `Avi also has interests in <span class="black"> Algo Trading, UI Designing and Product Designing. </span>`,
+  `XDHx86 is an AI quality specialist with 4+ years of experience in model testing and localization validation across <span class="black"> Arabic/English </span> bilingual workflows.`,
+  `XDHx86 is a graduate from <span class="black"> Youngstown State University </span> with a degree in <span class="black"> Computer Science </span> (2023).`,
+  `XDHx86 has interests in <span class="black"> Backend Engineering, System Automation, SaaS, AI, and Open Source. </span>`,
 ];
 
 function Hero() {
@@ -91,11 +91,11 @@ function Hero() {
               fontStyle: 'italic',
               color: 'var(--primary-orange)',
             }}
-            texts={['Fullstack', 'App', 'Game', 'Web']}
+            texts={['DevOps', 'Fullstack', 'AI', 'Builder']}
             speed={100}
             pauseDuration={1000}
           />
-          <h1 className="heading">Developer.</h1>
+          <h1 className="heading">Engineer.</h1>
         </motion.div>
         <motion.p
           className="desc"
@@ -107,9 +107,7 @@ function Hero() {
             ease: 'easeOut',
           }}
         >
-          Avi has a strong interest in Product Management and Entrepreneurship
-          and is committed to delivering high-quality tech products that offer
-          an exceptional user experience.
+          AI quality specialist and Arabic-language evaluation expert with expertise in model testing, quality assurance, and full-stack development. Passionate about building reliable systems and delivering high-quality tech products.
         </motion.p>
         <motion.div
           className="btn-flex"
@@ -122,10 +120,10 @@ function Hero() {
           }}
         >
           <CommonButton
-            text="Connect"
+            text="Contact"
             Icon={<FiLink className="icon-link" />}
             iconPosition="right"
-            onClick={() => window.open('https://linkedin.com/in/avivashishta')}
+            onClick={() => window.open('mailto:xdhx86@gmail.com')}
           />
           <CommonButton
             text="See Work"

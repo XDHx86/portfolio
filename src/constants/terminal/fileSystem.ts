@@ -69,12 +69,12 @@ export function buildFileSystem(): DirectoryNode {
       "contact.txt": {
         type: "file",
         name: "contact.txt",
-        content: `Contact Information\n====================\nEmail:    ${contact.email}\nLinkedIn: ${contact.linkedin}\nGitHub:   ${contact.github}`,
+        content: `Contact Information\n====================\nEmail:  ${contact.email}\nGitHub: ${contact.github}`,
       },
       "socials.txt": {
         type: "file",
         name: "socials.txt",
-        content: `Social Links\n==============\nLinkedIn:  ${contact.linkedin}\nGitHub:    ${contact.github}\nEmail:     ${contact.email}`,
+        content: `Social Links\n==============\nGitHub: ${contact.github}\nEmail:  ${contact.email}`,
       },
       "education.txt": {
         type: "file",

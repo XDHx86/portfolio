@@ -57,12 +57,8 @@ function Navbar() {
       href: '#work',
     },
     {
-      name: 'LinkedIn.',
-      href: 'https://linkedin.com/in/avivashishta',
-    },
-    {
       name: 'Github.',
-      href: 'https://github.com/AVIVASHISHTA29',
+      href: 'https://github.com/XDHx86',
     },
   ];
   const collapsedWidth = isMobile ? '175px' : 'auto';
@@ -103,7 +99,7 @@ function Navbar() {
           className="heading"
           style={{ visibility: isHovered ? 'hidden' : 'visible' }}
         >
-          Avi Vashishta.
+          XDHx86
         </h1>
       ) : (
         <motion.h1
@@ -111,7 +107,7 @@ function Navbar() {
           layout
           transition={{ type: 'spring', stiffness: 200, damping: 25 }}
         >
-          Avi Vashishta.
+          XDHx86
         </motion.h1>
       )}
       <motion.div

@@ -1,59 +1,60 @@
 export const bio = {
-  name: "Avi Vashishta",
-  title: "Fullstack Developer | App Developer | Game Developer",
+  name: "XDHx86",
+  title: "Devops Engineer · Fullstack Developer · AI Builder · AI Quality Assurance",
   summary:
-    "Avi has a strong interest in Product Management and Entrepreneurship and is committed to delivering high-quality tech products that offer an exceptional user experience. He is also an instructor at a leading YC EdTech platform, having taught MERN Stack to over 100,000+ students.",
-  interests: ["Algo Trading", "UI Design", "Product Design", "Entrepreneurship"],
+    "AI quality specialist and Arabic-language evaluation expert with 4+ years of experience in model testing, localization validation, and structured data-driven quality assurance. Extensive hands-on background evaluating AI outputs, rating model behavior, documenting defects across Arabic/English bilingual workflows, and establishing reproducible quality standards. Combines software engineering foundation with deep expertise in systematic quality evaluation, issue categorization, and structured documentation for AI training and validation initiatives.",
+  interests: ["Backend Engineering", "System Automation", "AI", "SaaS", "Performance Optimization", "Open Source"],
 };
 
 export const education = {
-  degree: "BTech in Computer Science",
-  university: "IIIT Delhi (Indraprastha Institute of Information Technology)",
-  year: "2024",
+  degree: "Bachelor of Science in Computer Science",
+  university: "Youngstown State University",
+  location: "Ohio, USA",
+  year: "2023",
 };
 
 export const experience = [
   {
-    title: "Software Engineer",
-    company: "Dock.us",
-    date: "March 2025 - Present",
+    title: "Independent Software Engineer",
+    company: "Self-Directed Quality & Documentation Focus",
+    date: "Jun 2025 - Present",
     description:
-      "Building features using the latest AI technologies on a Next.js, Node.js, GraphQL based tech stack with AWS SQS for messaging infrastructure.",
+      "Accelerated feature delivery across full-stack applications by adopting AI-assisted development workflows with Claude Code for implementation, refactoring, and test scaffolding while retaining design and review ownership. Designed and built personal SaaS and full-stack projects end to end covering front-end, back-end services, REST API integrations, and database modeling with rigorous quality standards.",
   },
   {
-    title: "Founding Engineer",
-    company: "Turgon AI",
-    date: "October 2024 - June 2025",
+    title: "DevOps / Systems Automation Engineer",
+    company: "Independent Technical Projects",
+    date: "Aug 2024 - Jun 2025",
     description:
-      "Led a cross-functional team to architect and deliver three AI-driven products. Reviewed and merged 500+ pull requests. Built a multi-tenant Next.js CMS controlling private club mobile apps globally with dynamic pages, real-time updates, and RBAC. Developed secure contactless check-ins using encrypted QR codes, a Fin-AI product with 99%+ accurate financial insights using Vercel AI SDK, LangChain, and Eleven Labs. Architected an AI-driven Expo mobile app using BFF architecture, digital wallet and ticketing system, and CI/CD pipelines with GitHub Actions.",
+      "Reduced repetitive administrative effort by 60% by building reusable Bash and PowerShell scripts with comprehensive documentation and error handling. Stood up and maintained self-hosted infrastructure with Docker and reverse proxies, keeping internal services reachable with stable routing. Shortened release cycles by 30% by systematically wiring automation and pre-deployment validation checks into GitHub CI/CD workflows.",
   },
   {
-    title: "SDE",
-    company: "AccioJob (YC 21)",
-    date: "October 2022 - October 2024",
+    title: "AI Model Quality & Safety Evaluation Specialist",
+    company: "The AI Training Company",
+    date: "Aug 2023 - Aug 2024",
     description:
-      "Managed over 300+ features and issues (highest in the team) across four product repositories. Developed AI products including AI-based tutoring, unique question generation, and proctoring services. Taught Frontend Web Development to over 90,000 students online.",
+      "Systematically evaluated Arabic-language model outputs for fluency, accuracy, and cultural appropriateness, establishing rating criteria and accuracy standards that identified localization defects. Conducted structured quality testing including edge case discovery, prompt-injection path assessment, and policy violation detection, maintaining detailed logs with reproducible steps.",
   },
   {
-    title: "Founder",
-    company: "STV Technologies",
-    date: "October 2021 - August 2022",
+    title: "Real Time Analyst",
+    company: "Vodafone UK - VOISEG",
+    date: "Dec 2021 - Aug 2023",
     description:
-      "Co-founded a freelancing firm, collaborating with international and national clients to complete 30+ freelance projects. Projects spanned full-stack web dev, app dev, Shopify, Wix/WordPress, Unity games. Generated revenue of INR 10,00,000.",
+      "Maintained 97% SLA adherence by continuously tracking and documenting real-time queues, demand patterns, and service-level trends across operational dashboards. Improved service-impacting issue response time by 30% by detecting bottlenecks early and maintaining detailed escalation logs for process refinement.",
   },
   {
-    title: "Fullstack Intern",
-    company: "Attrilu",
-    date: "Feb 2022 - April 2022",
+    title: "Freelance Data Analyst",
+    company: "Upwork",
+    date: "Mar 2020 - Dec 2021",
     description:
-      "Worked with Facebook (Meta) APIs. Built a web application for creators and brand marketing using Next.js and Django.",
+      "Improved data accuracy by 20% through systematic cleaning, normalizing, and structuring of raw datasets in SQL and Excel. Accelerated client decision turnaround by 30% by transforming large, complex datasets into readable performance summaries and visual dashboards.",
   },
   {
-    title: "Mobile App Intern",
-    company: "Fitzura",
-    date: "Jan 2022 - March 2022",
+    title: "Freelance Full-Stack Web Developer",
+    company: "Upwork",
+    date: "Feb 2018 - Dec 2021",
     description:
-      "Developed a comprehensive fitness clothing app using React Native with a Python Django backend.",
+      "Delivered 15+ client web applications by translating requirements into functional front-end and back-end implementations using JavaScript, TypeScript, React, Node.js, and Express. Reduced API integration errors by 30% by systematically connecting third-party services and rigorously validating request/response behavior.",
   },
 ];
 
@@ -61,51 +62,48 @@ export const skills = {
   frontend: [
     "React",
     "Next.js",
-    "React Native",
     "TypeScript",
     "JavaScript",
     "HTML",
     "CSS",
-    "SCSS",
     "Tailwind CSS",
-    "Three.js",
-    "R3F",
-    "Framer Motion",
-    "GSAP",
-    "Redux",
-    "Zustand",
-    "MUI",
-    "Ant Design",
   ],
   backend: [
     "Node.js",
-    "NestJS",
     "Express",
-    "Python",
-    "Django",
-    "Flask",
-    "Firebase",
-    "MongoDB",
     "REST APIs",
-    "GraphQL",
+    "PostgreSQL",
+    "SQLite",
+    "Redis",
+  ],
+  devops: [
+    "Docker",
+    "GitHub Actions",
+    "Linux",
+    "WSL",
+    "Kubernetes",
+    "AWS",
+    "Azure",
   ],
   tools: [
     "Git",
     "GitHub",
     "VS Code",
-    "Vercel",
-    "Firebase",
-    "AWS",
-    "Docker",
-    "CI/CD",
-    "Unity",
-    "C#",
-    "Figma",
+    "PowerShell",
+    "Bash",
+    "Prometheus",
+    "Grafana",
+  ],
+  ai: [
+    "LLM Integrations",
+    "AI Automation",
+    "Claude Code",
+    "Prompt Engineering",
+    "RAG",
   ],
 };
 
 export const contact = {
-  email: "avivashishta29@gmail.com",
-  linkedin: "https://linkedin.com/in/avivashishta",
-  github: "https://github.com/AVIVASHISHTA29",
+  email: "xdhx86@gmail.com",
+  github: "https://github.com/XDHx86",
 };

@@ -21,38 +21,38 @@ const NumbersAndStats = () => {
       return [
         {
           imgUrl: l_safari,
-          text: `<span class="orange"> 30+ </span>Freelance Clients`,
+          text: `<span class="orange"> 4+ </span>Years AI Quality Experience`,
         },
         {
           imgUrl: l_jira,
-          text: `<span class="orange"> 300+ </span>Tickets & Features`,
+          text: `<span class="orange"> 95%+ </span>Evaluation Consistency`,
         },
         {
           imgUrl: l_appstore,
-          text: `<span class="orange"> 5,000+ </span>App Downloads`,
+          text: `<span class="orange"> 60% </span>Automation Efficiency Gain`,
         },
         {
           imgUrl: l_youtube,
-          text: `<span class="orange"> 100,000+ </span>Youtube Views`,
+          text: `<span class="orange"> 15+ </span>Web Applications Built`,
         },
       ];
     }
     return [
       {
         imgUrl: d_safari,
-        text: `<span class="orange"> 30+ </span>Freelance Clients`,
+        text: `<span class="orange"> 4+ </span>Years AI Quality Experience`,
       },
       {
         imgUrl: d_jira,
-        text: `<span class="orange"> 300+ </span>Tickets & Features`,
+        text: `<span class="orange"> 95%+ </span>Evaluation Consistency`,
       },
       {
         imgUrl: d_appstore,
-        text: `<span class="orange"> 5,000+ </span>App Downloads`,
+        text: `<span class="orange"> 60% </span>Automation Efficiency Gain`,
       },
       {
         imgUrl: d_youtube,
-        text: `<span class="orange"> 100,000+ </span>Youtube Views`,
+        text: `<span class="orange"> 15+ </span>Web Applications Built`,
       },
     ];
   }, [darkMode]);
@@ -66,31 +66,32 @@ const NumbersAndStats = () => {
   }, [dataArray]);
 
   return (
-    <motion.div ref={containerRef} className="numbers-and-stats">
-      <div className="center-text">
-        <p className="text-p">Some Of My Interesting Stats</p>
-      </div>
-      <motion.div className="card-container">
-        <AnimatePresence initial={false}>
-          <NumberStatsCard
-            key={index}
-            frontCard={true}
-            exitX={250}
-            imgSrc={dataArray[index].imgUrl}
-          />
-          <NumberStatsCard key={index + 1} frontCard={false} exitX={-250} />
-        </AnimatePresence>
-      </motion.div>
-      <motion.div
-        key={index}
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -10 }}
-        transition={{ duration: 0.3 }}
-        className="card-text"
-        dangerouslySetInnerHTML={{ __html: dataArray[index].text }}
-      />
-    </motion.div>
+    // <motion.div ref={containerRef} className="numbers-and-stats">
+    //   <div className="center-text">
+    //     <p className="text-p">Some Of My Interesting Stats</p>
+    //   </div>
+    //   <motion.div className="card-container">
+    //     <AnimatePresence initial={false}>
+    //       <NumberStatsCard
+    //         key={index}
+    //         frontCard={true}
+    //         exitX={250}
+    //         imgSrc={dataArray[index].imgUrl}
+    //       />
+    //       <NumberStatsCard key={index + 1} frontCard={false} exitX={-250} />
+    //     </AnimatePresence>
+    //   </motion.div>
+    //   <motion.div
+    //     key={index}
+    //     initial={{ opacity: 0, y: 10 }}
+    //     animate={{ opacity: 1, y: 0 }}
+    //     exit={{ opacity: 0, y: -10 }}
+    //     transition={{ duration: 0.3 }}
+    //     className="card-text"
+    //     dangerouslySetInnerHTML={{ __html: dataArray[index].text }}
+    //   />
+    // </motion.div>
+    <br></br>
   );
 };
 

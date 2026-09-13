@@ -95,7 +95,7 @@ const commands: CommandDefinition[] = [
         }
       }
       ctx.writeln("");
-      ctx.writeln(yellow('Type "ai <message>" to chat with an AI that knows about Avi.'));
+      ctx.writeln(yellow('Type "ai <message>" to chat with an AI that knows about XDHx86.'));
     },
   },
   {
@@ -184,9 +184,8 @@ const commands: CommandDefinition[] = [
     description: "Show contact info",
     execute: (ctx) => {
       ctx.writeln(yellow("Contact Information"));
-      ctx.writeln(`  Email:    ${contact.email}`);
-      ctx.writeln(`  LinkedIn: ${contact.linkedin}`);
-      ctx.writeln(`  GitHub:   ${contact.github}`);
+      ctx.writeln(`  Email:  ${contact.email}`);
+      ctx.writeln(`  GitHub: ${contact.github}`);
     },
   },
   {
@@ -212,18 +211,17 @@ const commands: CommandDefinition[] = [
     description: "Show social links",
     execute: (ctx) => {
       ctx.writeln(yellow("Social Links"));
-      ctx.writeln(`  LinkedIn:  ${contact.linkedin}`);
-      ctx.writeln(`  GitHub:    ${contact.github}`);
-      ctx.writeln(`  Email:     ${contact.email}`);
+      ctx.writeln(`  GitHub: ${contact.github}`);
+      ctx.writeln(`  Email:  ${contact.email}`);
     },
   },
   {
     name: "whoami",
     description: "Who are you?",
     execute: (ctx) => {
-      ctx.writeln("visitor@avi-portfolio");
+      ctx.writeln("visitor@xdhx86-portfolio");
       ctx.writeln("");
-      ctx.writeln("Welcome! You're exploring Avi Vashishta's portfolio terminal.");
+      ctx.writeln("Welcome! You're exploring XDHx86's portfolio terminal.");
       ctx.writeln(`Type ${green('"help"')} to see what you can do here.`);
     },
   },
@@ -325,19 +323,19 @@ const commands: CommandDefinition[] = [
     execute: (ctx) => {
       const artLines = neofetchArt.split("\n");
       const infoLines = [
-        bold("avi@portfolio"),
+        bold("xdhx86@portfolio"),
         "-----------------",
-        `${bold("OS:")} Portfolio OS v2.0.26`,
-        `${bold("Host:")} avivashishta.com`,
+        `${bold("OS:")} XDHx86 Portfolio v1.0`,
+        `${bold("Host:")} VERCELPORTFOLIODOMAIN`,
         `${bold("Kernel:")} React 19 + Vite 7`,
         `${bold("Shell:")} TypeScript 5.7`,
         `${bold("DE:")} SCSS + Motion`,
         `${bold("WM:")} Zustand 5`,
         `${bold("Terminal:")} xterm.js`,
-        `${bold("CPU:")} BTech CS @ IIIT Delhi`,
-        `${bold("GPU:")} Fullstack Developer`,
-        `${bold("Memory:")} 3+ years SDE exp`,
-        `${bold("Uptime:")} Since Oct 2022`,
+        `${bold("CPU:")} BS CS @ Youngstown State University`,
+        `${bold("GPU:")} AI Quality Specialist & Fullstack Developer`,
+        `${bold("Memory:")} 4+ years AI & QA exp`,
+        `${bold("Uptime:")} Since Aug 2023`,
       ];
       const maxLines = Math.max(artLines.length, infoLines.length);
       for (let i = 0; i < maxLines; i++) {
@@ -354,12 +352,12 @@ const commands: CommandDefinition[] = [
       if (ctx.args.join(" ").toLowerCase() === "hire-me") {
         ctx.writeln(yellow("=== PERMISSION GRANTED ==="));
         ctx.writeln("");
-        ctx.writeln("Excellent decision! Avi would love to hear from you.");
+        ctx.writeln("Excellent decision! XDHx86 would love to hear from you.");
         ctx.writeln("");
         ctx.writeln(`  Email:    ${green(contact.email)}`);
-        ctx.writeln(`  LinkedIn: ${green(contact.linkedin)}`);
+        ctx.writeln(`  GitHub:   ${green(contact.github)}`);
         ctx.writeln("");
-        ctx.writeln(yellow("Initiating hiring sequence... Done."));
+        ctx.writeln(yellow("Initiating connection sequence... Done."));
       } else {
         ctx.writeln(red(`sudo: ${ctx.args[0] || ""}: command not found`));
         ctx.writeln(`Did you mean: ${green("sudo hire-me")}?`);
@@ -378,7 +376,7 @@ const commands: CommandDefinition[] = [
     name: "cowsay",
     description: "ASCII cow says your message",
     execute: (ctx) => {
-      const message = ctx.args.join(" ") || "Moo! Hire Avi!";
+      const message = ctx.args.join(" ") || "Moo! Hire XDHx86!";
       const result = cowsayTemplate(message);
       for (const line of result.split("\n")) {
         ctx.writeln(line);

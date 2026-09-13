@@ -1,16 +1,12 @@
 function Footer() {
   const links = [
     {
-      name: "LinkedIn.",
-      href: "https://linkedin.com/in/avivashishta",
-    },
-    {
       name: "Github.",
-      href: "https://github.com/AVIVASHISHTA29",
+      href: "https://github.com/XDHx86",
     },
     {
       name: "Email.",
-      href: "mailto:avivashishta29@gmail.com",
+      href: "mailto:xdhx86@gmail.com",
     },
     {
       name: "llms.txt",
