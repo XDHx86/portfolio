@@ -3,7 +3,7 @@ User-agent: *
 Disallow:
 
 # Sitemap
-Sitemap: https://portfolio-sandy-omega-81.vercel.app/sitemap.xml
+Sitemap: https://portfolio-xdhx86.vercel.app/sitemap.xml
 
 # LLM context
 Llms-txt: /llms.txt
